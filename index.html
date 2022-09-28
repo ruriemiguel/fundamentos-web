@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruriê Miguel</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<nav>
+  <p id='ruri'></p>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="contato.html">Contato</a></li>
+  </ul>
+</nav>
+
+<body>
+  <hr class="hr">
+  <main class="texto">
+    <div class="presente">
+      <p>Prazer! Meu nome é Ruriê Miguel Pacheco. Tenho 25 anos e sou de São Bernardo do Campo, São Paulo.</p>
+      <p>Em transição de carreira, vim da área química, onde desde cedo já desenvolvi o hábito de estudar e, dentre
+        outras formações, sou Tecnologo em Polímeros, graduação de nível superior, desde os 20 anos de idade.</p>
+      <p>Atualmente, desde que obtive o interesse e fascínio pela área de tecnologia, me formei Desenvolvedor Java Full
+        Stack pelo BootCamp da Generation Brasil, a maior ONG do Brasil voltada pra formação em tecnologia.</p>
+      <p>Em pouco tempo, já desenvolvi habilidades relevantes em SpringBoot, Banco de Dados Relacional, HTML, CSS, React
+        entre outras tecnologias importantes para o mercado de tecnologia.</p>
+    </div>
+
+    <img src="assets/img/perfil1.png" alt="Perfil de Ruriê" class="foto" height="400" />
+
+    <div class="futuro">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ipsa facere, quisquam nulla ullam placeat!
+        Inventore, ipsa odit, voluptates perspiciatis sunt sint nihil consectetur nobis reprehenderit minima quia,
+        pariatur aliquam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci tempore molestiae sint ullam odit vel
+        consectetur quia ad ipsum tenetur, soluta, provident obcaecati ex! Est nobis temporibus alias vero sunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates libero molestiae quasi a veritatis delectus
+        aperiam eum autem necessitatibus officia, earum culpa. Dignissimos rerum natus ipsa veritatis quisquam sunt
+        perferendis!</p>
+    </div>
+  </main>
+  <hr class="hr">
+  <section class="git">
+    <div>
+      <p>Topa ver um pouco do que eu já sei fazer?</p>
+      <ul class="linksgit">
+        <li><a href="https://github.com/ruriemiguel/Java" target="_blank">Projetos e Estudos em Java.</a></li>
+        <li><a href="https://github.com/ruriemiguel/mysql" target="_blank">MySQL</a></li>
+        <li><a href="https://github.com/ruriemiguel/blogpessoal" target="_blank">Blog Pessoal - Back End desenvolvido em
+            SpringBoot</a></li>
+        <li><a href="https://github.com/ruriemiguel/HTMLCSS" target="_blank">Exercícios em HTML e CSS</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <hr>
+
+  <footer>
+
+    <div class="container">
+      <a href="https://www.linkedin.com/in/ruriemiguel/" target="_blank">
+        <img class="imagem tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin" height="50">
+      </a>
+      <a href="https://github.com/ruriemiguel" target="_blank">
+        <img class="imagem tm-social p-30" src="assets/img/github.png" alt="Logo do Github" height="50">
+      </a>
+      <a href="https://wa.me/5511957051723" target="_blank">
+        <img class="imagem tm-social p-30" src="assets/img/whatsapp.png" alt="Logo do Whatsapp" height="50">
+      </a>
+    </div>
+
+    <div class="feito">
+      <p>Feito por Ruriê Miguel Pacheco - 2022 &copy;</p>
+    </div>
+
+  </footer>
+
+  <hr>
+
+  <script src="assets/script.js"></script>
+
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+
+  <script>
+    new TypeIt("#ruri", {
+      speed: 25,
+      startDelay: 900,
+    })
+      .type("eu sou o ", { delay: 100 })
+      .move(-9, { delay: 100 })
+
+      .move(null, { to: "START", instant: false, delay: 300 })
+      .move(1, { delay: 200 })
+      .delete(1)
+      .type("E", { delay: 50 })
+      .move(2, { instant: true })
+      .move(6, { instant: true })
+      .move(null, { to: "END" })
+      .type('<span class="place">Ruri</span>', { delay: 400 })
+      .delete(".place", { delay: 800, instant: true })
+      .type('<em><strong class="font-semibold">Ruri!</strong></em>', {
+      })
+      .go();
+  </script>
+
+</body>
+
+</html>
